@@ -3,9 +3,9 @@
 ## Contacts:
 **E-mail**: d.kotsyubko@gmail.com
 
-**Telegram**: @ItKinad
-
 **Discord**: Kinad#1211
+
+**Telegram**: @ItKinad
 
 ## About Me:
 ### I'm a 13 years old student from Belarus. In the past I've learned basics of Python. Now I want to try something new, learn JavaScript/Front-end
