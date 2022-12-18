@@ -1,1 +1,14 @@
-yep
+body {
+    font-family: 'Comfortaa', cursive;
+    background-image: url(assets/img/blur_wall.jpg);
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
