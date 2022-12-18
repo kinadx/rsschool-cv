@@ -1,1 +1,73 @@
-yep
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <p style="text-align: center;"><img src="assets/img/ya2.jpg" alt="my photo" width="189" height="252"></p>
+        <h1 style="text-align: center; padding: 10px 0px 60px 0px;">Daniil Kotsyubko</h1>
+    </header>
+    <main>
+        <div class="container">
+        
+            <h2>About Me:</h2>
+            <hr>
+            <p style="line-height: 28px;">I’m a 13 years old student from Belarus. In the past I’ve learned basics of Python. Now I want to try something new, learn JavaScript/Front-end</p>
+            <h2 style="padding: 10px 0px 0px 0px;">Skills:</h2>
+            <hr>
+            <ul>
+                <li style="padding: 5px;">Python</li>
+                <li style="padding: 5px;">PyCharm</li>
+                <li style="padding: 5px;">Figma</li>
+            </ul>
+            <h2 style="padding: 10px 0px 0px 0px;">Code example:</h2>
+            <hr>
+            <h3>Python</h3>
+            <p><i>There are more difficult projects/works, but they are too large 😁</i></p>
+            <code style="font-size: 16px;">
+                <pre>
+                    num = input("Введите цифры на передней части карточки: ")
+                chifri = len(num)
+                nich = ""
+                for i in range(0, chifri - 4):
+                    nich += "#"
+                num = nich + num[-4:]
+                print(num) 
+                </pre>
+            </code>
+            <h2 style="padding: 10px 0px 0px 0px;">Courses:</h2>
+            <hr>
+            <ul>
+                <li style="padding: 5px;">myIT Course «Python Programming» (Completed)</li>
+                <li style="padding: 5px;">RS School Course «JavaScript/Front-end. Stage 0» (In Progress)</li>
+            </ul>
+            <h2 style="padding: 10px 0px 0px 0px;">Languages:</h2>
+            <hr>
+            <ul>
+                <li style="padding: 5px;">English - Pre-Intermediate/Intermediate</li>
+                <li style="padding: 5px;">Russian - Native</li>
+                <li style="padding: 5px;">Belarusian - Intermediate</li>
+                <li style="padding: 5px;">Ukrainian - Basic/Intermediate</li>
+                <li style="padding: 5px;">Polish - a few words/sentences</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo" width="300" height="100"></a>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
